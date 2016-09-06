@@ -16800,17 +16800,6 @@ Source: http://www.bourns.com/data/global/PDFs/3223.PDF</description>
 <pinref part="MS1" gate="G$1" pin="GPIO12"/>
 <wire x1="35.56" y1="73.66" x2="35.56" y2="63.5" width="0.1524" layer="91"/>
 </segment>
-<segment>
-<pinref part="R3" gate="G$1" pin="2"/>
-<wire x1="68.58" y1="99.06" x2="63.5" y2="99.06" width="0.1524" layer="91"/>
-<label x="60.96" y="99.06" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="N$19" class="0">
-<segment>
-<pinref part="MS1" gate="G$1" pin="GPIO11"/>
-<wire x1="38.1" y1="73.66" x2="38.1" y2="63.5" width="0.1524" layer="91"/>
-</segment>
 </net>
 <net name="N$20" class="0">
 <segment>
@@ -17010,6 +16999,17 @@ Source: http://www.bourns.com/data/global/PDFs/3223.PDF</description>
 <pinref part="U1" gate="A" pin="1OUT"/>
 <pinref part="R8" gate="G$1" pin="1"/>
 <wire x1="129.54" y1="121.92" x2="124.46" y2="121.92" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="GPIO11" class="0">
+<segment>
+<pinref part="R3" gate="G$1" pin="2"/>
+<wire x1="68.58" y1="99.06" x2="63.5" y2="99.06" width="0.1524" layer="91"/>
+<label x="60.96" y="99.06" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="MS1" gate="G$1" pin="GPIO11"/>
+<wire x1="38.1" y1="73.66" x2="38.1" y2="63.5" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
