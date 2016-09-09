@@ -16527,8 +16527,8 @@ Source: http://www.bourns.com/data/global/PDFs/3223.PDF</description>
 <part name="GND12" library="supply1" deviceset="GND" device=""/>
 <part name="JP1" library="adafruit" deviceset="PINHD-1X6" device=""/>
 <part name="JP3" library="adafruit" deviceset="PINHD-1X3" device=""/>
-<part name="U$2" library="dm_parts" deviceset="L4931" device=""/>
-<part name="U$3" library="dm_parts" deviceset="VP2206N3-G" device=""/>
+<part name="U2" library="dm_parts" deviceset="L4931" device=""/>
+<part name="U3" library="dm_parts" deviceset="VP2206N3-G" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -16571,8 +16571,8 @@ Source: http://www.bourns.com/data/global/PDFs/3223.PDF</description>
 <instance part="GND12" gate="1" x="22.86" y="10.16"/>
 <instance part="JP1" gate="A" x="45.72" y="7.62" rot="R270"/>
 <instance part="JP3" gate="A" x="50.8" y="76.2" rot="R90"/>
-<instance part="U$2" gate="G$1" x="157.48" y="152.4"/>
-<instance part="U$3" gate="G$1" x="83.82" y="137.16" rot="R90"/>
+<instance part="U2" gate="G$1" x="157.48" y="152.4"/>
+<instance part="U3" gate="G$1" x="83.82" y="137.16" rot="R90"/>
 </instances>
 <busses>
 </busses>
@@ -16716,7 +16716,7 @@ Source: http://www.bourns.com/data/global/PDFs/3223.PDF</description>
 <pinref part="C5" gate="G$1" pin="-"/>
 <wire x1="157.48" y1="142.24" x2="180.34" y2="142.24" width="0.1524" layer="91"/>
 <wire x1="180.34" y1="142.24" x2="180.34" y2="144.78" width="0.1524" layer="91"/>
-<pinref part="U$2" gate="G$1" pin="GND"/>
+<pinref part="U2" gate="G$1" pin="GND"/>
 <junction x="157.48" y="142.24"/>
 </segment>
 <segment>
@@ -16739,7 +16739,7 @@ Source: http://www.bourns.com/data/global/PDFs/3223.PDF</description>
 <pinref part="C5" gate="G$1" pin="+"/>
 <wire x1="180.34" y1="154.94" x2="190.5" y2="154.94" width="0.1524" layer="91"/>
 <wire x1="180.34" y1="152.4" x2="180.34" y2="154.94" width="0.1524" layer="91"/>
-<pinref part="U$2" gate="G$1" pin="VOUT"/>
+<pinref part="U2" gate="G$1" pin="VOUT"/>
 <wire x1="172.72" y1="154.94" x2="180.34" y2="154.94" width="0.1524" layer="91"/>
 <junction x="180.34" y="154.94"/>
 </segment>
@@ -16825,7 +16825,7 @@ Source: http://www.bourns.com/data/global/PDFs/3223.PDF</description>
 <wire x1="66.04" y1="129.54" x2="81.28" y2="129.54" width="0.1524" layer="91"/>
 <pinref part="T1" gate="G$1" pin="C"/>
 <wire x1="81.28" y1="129.54" x2="81.28" y2="127" width="0.1524" layer="91"/>
-<pinref part="U$3" gate="G$1" pin="G"/>
+<pinref part="U3" gate="G$1" pin="G"/>
 <junction x="81.28" y="129.54"/>
 </segment>
 </net>
@@ -16916,7 +16916,7 @@ Source: http://www.bourns.com/data/global/PDFs/3223.PDF</description>
 <label x="55.88" y="139.7" size="1.778" layer="95"/>
 <wire x1="76.2" y1="139.7" x2="66.04" y2="139.7" width="0.1524" layer="91"/>
 <junction x="66.04" y="139.7"/>
-<pinref part="U$3" gate="G$1" pin="S"/>
+<pinref part="U3" gate="G$1" pin="S"/>
 </segment>
 <segment>
 <pinref part="T3" gate="G$1" pin="C"/>
@@ -16941,10 +16941,10 @@ Source: http://www.bourns.com/data/global/PDFs/3223.PDF</description>
 <junction x="124.46" y="139.7"/>
 <wire x1="93.98" y1="139.7" x2="101.6" y2="139.7" width="0.1524" layer="91"/>
 <junction x="101.6" y="139.7"/>
-<pinref part="U$2" gate="G$1" pin="VIN"/>
+<pinref part="U2" gate="G$1" pin="VIN"/>
 <wire x1="139.7" y1="154.94" x2="137.16" y2="154.94" width="0.1524" layer="91"/>
 <junction x="137.16" y="154.94"/>
-<pinref part="U$3" gate="G$1" pin="D"/>
+<pinref part="U3" gate="G$1" pin="D"/>
 </segment>
 </net>
 <net name="VON" class="0">

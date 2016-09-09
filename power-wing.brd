@@ -821,8 +821,14 @@ Please make sure your boards conform to these design rules.</description>
 <element name="JP3" library="adafruit" package="1X03" value="" x="43.18" y="18.796" smashed="yes">
 <attribute name="VALUE" x="39.37" y="15.621" size="1.27" layer="27"/>
 </element>
-<element name="U$2" library="dm_parts" package="TO92-BCE" value="L4931" x="15.748" y="5.08"/>
-<element name="U$3" library="dm_parts" package="TO92-BCE" value="VP2206N3-G" x="7.112" y="6.096" rot="R180"/>
+<element name="U2" library="dm_parts" package="TO92-BCE" value="L4931" x="15.748" y="5.08" smashed="yes">
+<attribute name="NAME" x="20.574" y="4.318" size="1.27" layer="25" ratio="10" rot="R90"/>
+<attribute name="VALUE" x="13.208" y="1.778" size="1.27" layer="27" ratio="10"/>
+</element>
+<element name="U3" library="dm_parts" package="TO92-BCE" value="VP2206N3-G" x="7.112" y="6.096" smashed="yes" rot="R180">
+<attribute name="NAME" x="2.286" y="7.62" size="1.27" layer="25" ratio="10" rot="R270"/>
+<attribute name="VALUE" x="9.652" y="9.398" size="1.27" layer="27" ratio="10" rot="R180"/>
+</element>
 </elements>
 <signals>
 <signal name="N$2">
@@ -904,7 +910,7 @@ Please make sure your boards conform to these design rules.</description>
 <contactref element="C4" pad="2"/>
 <contactref element="C5" pad="-"/>
 <contactref element="R9" pad="1"/>
-<contactref element="U$2" pad="C"/>
+<contactref element="U2" pad="C"/>
 </signal>
 <signal name="AREF">
 <contactref element="MS1" pad="3"/>
@@ -919,7 +925,7 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="24.384" y1="4.572" x2="24.13" y2="4.826" width="0.4064" layer="1"/>
 <wire x1="24.13" y1="4.826" x2="20.574" y2="4.826" width="0.4064" layer="1"/>
 <wire x1="20.574" y1="4.826" x2="18.796" y2="3.048" width="0.4064" layer="1"/>
-<contactref element="U$2" pad="E"/>
+<contactref element="U2" pad="E"/>
 <wire x1="18.288" y1="5.08" x2="18.288" y2="3.302" width="0.4064" layer="1"/>
 <wire x1="18.288" y1="3.302" x2="18.542" y2="3.048" width="0.4064" layer="1"/>
 <wire x1="9.144" y1="3.048" x2="18.542" y2="3.048" width="0.4064" layer="1"/>
@@ -1002,7 +1008,7 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="5.08" y1="12.192" x2="4.064" y2="13.208" width="0.4064" layer="1"/>
 <wire x1="4.064" y1="13.208" x2="1.524" y2="13.208" width="0.4064" layer="1"/>
 <wire x1="7.112" y1="9.144" x2="7.366" y2="9.398" width="0.4064" layer="1"/>
-<contactref element="U$3" pad="C"/>
+<contactref element="U3" pad="C"/>
 <wire x1="7.112" y1="6.096" x2="7.112" y2="9.144" width="0.4064" layer="1"/>
 </signal>
 <signal name="N$17">
@@ -1095,7 +1101,7 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="6.858" y1="8.382" x2="6.35" y2="8.89" width="0.4064" layer="16"/>
 <wire x1="6.35" y1="8.89" x2="6.35" y2="13.462" width="0.4064" layer="16"/>
 <wire x1="6.35" y1="13.462" x2="6.604" y2="13.716" width="0.4064" layer="16"/>
-<contactref element="U$3" pad="B"/>
+<contactref element="U3" pad="B"/>
 <wire x1="9.652" y1="6.096" x2="9.652" y2="7.112" width="0.4064" layer="16"/>
 <wire x1="9.652" y1="7.112" x2="8.382" y2="8.382" width="0.4064" layer="16"/>
 </signal>
@@ -1109,14 +1115,14 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="21.59" y1="6.858" x2="22.352" y2="6.096" width="0.4064" layer="1"/>
 <wire x1="22.352" y1="6.096" x2="23.114" y2="6.096" width="0.4064" layer="1"/>
 <wire x1="3.302" y1="10.922" x2="3.302" y2="7.366" width="0.4064" layer="1"/>
-<contactref element="U$2" pad="B"/>
+<contactref element="U2" pad="B"/>
 <wire x1="5.842" y1="4.064" x2="12.192" y2="4.064" width="0.4064" layer="1"/>
 <wire x1="12.192" y1="4.064" x2="13.208" y2="5.08" width="0.4064" layer="1"/>
 <wire x1="13.208" y1="5.08" x2="13.208" y2="6.096" width="0.4064" layer="1"/>
 <wire x1="13.208" y1="6.096" x2="14.478" y2="7.366" width="0.4064" layer="1"/>
 <wire x1="14.478" y1="7.366" x2="18.288" y2="7.366" width="0.4064" layer="1"/>
 <wire x1="18.288" y1="7.366" x2="18.796" y2="6.858" width="0.4064" layer="1"/>
-<contactref element="U$3" pad="E"/>
+<contactref element="U3" pad="E"/>
 <wire x1="4.572" y1="6.096" x2="3.302" y2="7.366" width="0.4064" layer="1"/>
 <wire x1="5.842" y1="4.064" x2="4.572" y2="5.334" width="0.4064" layer="1"/>
 <wire x1="4.572" y1="5.334" x2="4.572" y2="6.096" width="0.4064" layer="1"/>
